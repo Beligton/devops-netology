@@ -1,8 +1,7 @@
-# Будут игнорироваться:
-# Все файлы в папке .terraform
-# Файлы расширений .tfstate
-# Файлы логов крашей .log
-# Файлы расширений .tfvars
-# Файлы оверрайта override.tf, override.tf.json, *_override.tf и *_override.tf.json
-# Файлы конфигурации CLI .terraformrc и terraform.rc
-
+# Р‘СѓРґСѓС‚ РёРіРЅРѕСЂРёСЂРѕРІР°С‚СЊСЃСЏ:
+# Р’СЃРµ С„Р°Р№Р»С‹ РІ РїР°РїРєРµ .terraform
+# Р¤Р°Р№Р»С‹ СЂР°СЃС€РёСЂРµРЅРёР№ .tfstate
+# Р¤Р°Р№Р»С‹ Р»РѕРіРѕРІ РєСЂР°С€РµР№ .log
+# Р¤Р°Р№Р»С‹ СЂР°СЃС€РёСЂРµРЅРёР№ .tfvars
+# Р¤Р°Р№Р»С‹ РѕРІРµСЂСЂР°Р№С‚Р° override.tf, override.tf.json, *_override.tf Рё *_override.tf.json
+# Р¤Р°Р№Р»С‹ РєРѕРЅС„РёРіСѓСЂР°С†РёРё CLI .terraformrc Рё terraform.rc
