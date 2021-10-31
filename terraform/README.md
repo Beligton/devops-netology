@@ -1,13 +1,8 @@
-# Local .terraform directories
-# .tfstate files
-# Crash log files
-# Exclude all .tfvars files, which are likely to contain sentitive data, such as
-# password, private keys, and other secrets. These should not be part of version
-# control as they are data points which are potentially sensitive and subject
-# to change depending on the environment.
-# Ignore override files as they are usually used to override resources locally and so
-# are not checked in
-# Include override files you do wish to add to version control using negated pattern
-# Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
-# example: *tfplan*
-# Ignore CLI configuration files
+# Будут игнорироваться:
+# Все файлы в папке .terraform
+# Файлы расширений .tfstate
+# Файлы логов крашей .log
+# Файлы расширений .tfvars
+# Файлы оверрайта override.tf, override.tf.json, *_override.tf и *_override.tf.json
+# Файлы конфигурации CLI .terraformrc и terraform.rc
+
